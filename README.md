@@ -24,10 +24,14 @@
 Запуск тестов
 
 Обычный запуск
+
 python3 -m pytest tests/test_yandex_form.py -v
 
 Параллельный запуск (2 потока)
+
 python3 -m pytest tests/test_yandex_form.py -n 2 -v
 
 Запуск с генерацией Allure-отчёта
+
 allure generate allure-results --clean -o allure-report
+
